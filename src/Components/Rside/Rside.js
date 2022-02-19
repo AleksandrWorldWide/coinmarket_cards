@@ -11,7 +11,9 @@ const Side = (props) => (
 		<div className="side__show">
 			<button className="btn" onClick={props.handleShow}>Show</button>
 		</div>
+		{props.children}
 	</div>
+	
 )
 
 export default Side

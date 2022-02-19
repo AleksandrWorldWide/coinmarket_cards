@@ -6,7 +6,7 @@ import App from './Components/App/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title = {'CoinMarketCap'}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
